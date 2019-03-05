@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c844ef30-b589-424c-aef7-ed3b62fbfd05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configurations.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configurations.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SampleData555.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/SampleData555.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/ExcelRead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/ExcelRead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/ExcelRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/ExcelRead.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,47 +22,50 @@
     <session id="-770408261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
-          <entry key="project.open.time.0" value="22" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.closed" value="40" />
+          <entry key="project.open.time.0" value="28" />
+          <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.opened" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="feature" value="15" />
-          <entry key="java" value="24" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="1" />
+          <entry key="feature" value="17" />
+          <entry key="java" value="29" />
+          <entry key="properties" value="4" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="15" />
-          <entry key="JAVA" value="24" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="1" />
+          <entry key="Cucumber" value="17" />
+          <entry key="JAVA" value="29" />
+          <entry key="Properties" value="4" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="feature" value="3372" />
-          <entry key="java" value="4441" />
-          <entry key="xml" value="12" />
+          <entry key="feature" value="3923" />
+          <entry key="java" value="5942" />
+          <entry key="properties" value="26" />
+          <entry key="xml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="3372" />
-          <entry key="JAVA" value="4441" />
+          <entry key="Cucumber" value="3923" />
+          <entry key="JAVA" value="5942" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="XML" value="12" />
+          <entry key="Properties" value="26" />
+          <entry key="XML" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -65,10 +73,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="189">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/AmazonSearch_steps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/steps/Login_steps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,22 +121,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/configurations.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1554">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test/ExcelRead.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -159,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/configurations.properties" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/Config.java" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/Driver.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Amazon.java" />
@@ -182,12 +213,18 @@
         <option value="$PROJECT_DIR$/src/test/java/steps/GoogleParameters_steps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/googleParameters.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/datatables2.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/runners/Runner.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/datatablesSO.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/Hooks.java" />
         <option value="$PROJECT_DIR$/src/test/java/steps/DataTable_steps.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/configurations.properties" />
         <option value="$PROJECT_DIR$/src/test/java/test/ExcelRead.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/ExcelWrite.java" />
+        <option value="$PROJECT_DIR$/src/test/java/apitests/CMstudent.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/Database_Validation.feature" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/runners/Runner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Login_steps.java" />
       </list>
     </option>
   </component>
@@ -210,6 +247,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -249,7 +288,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
@@ -261,19 +300,25 @@
             <path>
               <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
               <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chicago10cucumberjunit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chicago10cucumberjunit" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="referenses&#9;null&#9;null" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550782732613" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551806929177" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -292,7 +337,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExcelRead">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="ExcelRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.ExcelRead" />
       <module name="chicago10cucumberjunit" />
@@ -302,6 +347,49 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ExcelWrite" />
+      <module name="chicago10cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CMstudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago10cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.CMstudent" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CMstudent.studentList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chicago10cucumberjunit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.CMstudent" />
+      <option name="METHOD_NAME" value="studentList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -323,11 +411,17 @@
     <list>
       <item itemvalue="JUnit.Runner" />
       <item itemvalue="Application.ExcelRead" />
+      <item itemvalue="Application.ExcelWrite" />
+      <item itemvalue="JUnit.CMstudent" />
+      <item itemvalue="JUnit.CMstudent.studentList" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExcelRead" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="JUnit.CMstudent.studentList" />
+        <item itemvalue="JUnit.CMstudent" />
+        <item itemvalue="Application.ExcelWrite" />
+        <item itemvalue="Application.ExcelRead" />
       </list>
     </recent_temporary>
   </component>
@@ -345,34 +439,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Runner - 2019.02.19 at 12h 00m 31s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.02.19 at 12h 20m 19s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.02.19 at 12h 24m 43s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.02.19 at 12h 26m 29s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.02.19 at 12h 28m 35s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.02.19 at 12h 29m 36s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.02.19 at 12h 45m 06s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.02.19 at 12h 46m 41s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner - 2019.02.19 at 12h 59m 06s.xml">
-      <configuration name="Runner" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Runner - 2019.02.20 at 22h 29m 28s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CMstudent - 2019.02.22 at 14h 44m 24s.xml">
+      <configuration name="CMstudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CMstudent_studentList - 2019.02.22 at 14h 45m 26s.xml">
+      <configuration name="CMstudent.studentList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CMstudent_studentList - 2019.02.22 at 14h 46m 25s.xml">
+      <configuration name="CMstudent.studentList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CMstudent - 2019.02.22 at 14h 55m 01s.xml">
+      <configuration name="CMstudent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CMstudent_studentList - 2019.02.22 at 14h 56m 04s.xml">
+      <configuration name="CMstudent.studentList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CMstudent_studentList - 2019.02.22 at 14h 59m 45s.xml">
+      <configuration name="CMstudent.studentList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CMstudent_studentList - 2019.02.26 at 12h 03m 02s.xml">
+      <configuration name="CMstudent.studentList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.03.05 at 11h 24m 24s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.03.05 at 11h 28m 01s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -380,7 +474,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18926175" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21879195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -389,12 +483,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1529745" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0014164306" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.0" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -412,13 +506,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/configurations.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Config.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -441,13 +528,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/wiki.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/AmazonSearch_steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/AmazonPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -567,20 +647,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/hrapp_features.properties" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Database_Validation.feature" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/apitests/CMstudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="462">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/ExcelRead.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1554">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="945">
+          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/ExcelWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="38" column="85" selection-start-line="38" selection-start-column="85" selection-end-line="38" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configurations.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -623,10 +725,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test/ExcelRead.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="399">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/AmazonSearch_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Login_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

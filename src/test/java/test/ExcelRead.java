@@ -2,6 +2,7 @@ package test;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import utilities.Config;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -12,6 +13,7 @@ public class ExcelRead {
         System.out.println(file.exists());
         //Openning reading File
         FileInputStream inputStream = new FileInputStream(file);
+
         //Loading into the class
         XSSFWorkbook workbook = new XSSFWorkbook(inputStream);
         //Passing worksheet & name
@@ -33,9 +35,20 @@ public class ExcelRead {
 
             }
         }
+        //TODO: IF NAME IS MATCHING, PRINT OUT ALL THE INFORMATION FOR THAT PERSON:
+        // TODO:FIRSTNAME, LASTNAME, job_igd
+        //GET THE LAST NAME FROM CONFIG
+        String lastName = Config.getProperty("lastname");
+        for(int i =0; i<=usedRows; i++){
+            if(worksheet.getRow(i).getCell(1).toString().equals(lastName)){
+                System.out.println("Information for employee- "+ lastName+ "  First Name==>"+
+                        worksheet.getRow(i).getCell(0)+ ","+ worksheet.getRow(i).getCell(2));
+                        break;
+            }
 
-
-
+        }
+      workbook.close();
+        inputStream.close();
 
     }
 }
