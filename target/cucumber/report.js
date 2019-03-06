@@ -16,6 +16,9 @@ formatter.scenario({
   "tags": [
     {
       "name": "@login"
+    },
+    {
+      "name": "@login2"
     }
   ]
 });
