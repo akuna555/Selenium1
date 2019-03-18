@@ -24,7 +24,7 @@ public class Driver {
                     driver = new FirefoxDriver();
                     break;
             }}
-        driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS );
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS );
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(12,TimeUnit.SECONDS);
         return driver;

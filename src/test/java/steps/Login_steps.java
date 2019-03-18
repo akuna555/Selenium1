@@ -1,8 +1,10 @@
 package steps;
 
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import gherkin.ast.DataTable;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import pages.LoginPage;
 import utilities.Driver;
+
+import java.util.Map;
 
 public class Login_steps {
 
@@ -63,6 +67,38 @@ public class Login_steps {
         Assert.assertTrue(bodyText.contains(message));
 
     }
+    @When("user enters username as {string}")
+    public void user_enters_username_as(String username1) {
 
+    }
+
+    @When("user enters password as {string}")
+    public void user_enters_password_as(String password1) {
+
+    }
+
+    @When("user clicks on login")
+    public void user_clicks_on_login() {
+
+    }
+    @When("the user enters {string} and {string}")
+    public void the_user_enters_and(String username, String password) {
+        lp.enterEmail.sendKeys(username);
+        lp.enterPassword.sendKeys(password);
+        lp.loginButton.click();
+    }
+    @When("the user enters set of \"(.*)\" and \"(.*)\"$")
+    public void the_user_enters_set_of_and(DataTable credentials) {
+
+
+
+    }
+
+    @Then("the user should be able to iew account balance")
+    public void the_user_should_be_able_to_iew_account_balance() {
+        // Write code here that turns the phrase above into concrete actions
+
+
+    }
 
 }

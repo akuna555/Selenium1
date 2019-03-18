@@ -1,24 +1,21 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/MyFirstFeatureFile.feature");
 formatter.feature({
-  "name": "The Login Page",
-  "description": "    As a returning customer\n    I want to login to the application\n    So that I can view my accountn balance",
+  "name": "Create account of Facebook",
+  "description": "  As a user u need to open faceBook home page and do the validations",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@login"
+      "name": "@facebook"
     }
   ]
 });
 formatter.scenario({
-  "name": "the user should be able to login with valid credentials",
+  "name": "Validate First Name field",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@login"
-    },
-    {
-      "name": "@login2"
+      "name": "@facebook"
     }
   ]
 });
@@ -26,31 +23,97 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user is on the login page",
+  "name": "User need to be on the Facebook Page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Login_steps.the_user_is_on_the_login_page()"
+  "location": "FaceBook.user_need_to_be_on_the_Facebook_Page()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user enters valid credentials",
+  "name": "User enters user first name",
   "keyword": "When "
 });
 formatter.match({
-  "location": "Login_steps.the_user_enters_valid_credentials()"
+  "location": "FaceBook.user_enters_user_first_name()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should be able to view account balance",
+  "name": "User checks user first name is present",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "Login_steps.the_user_should_be_able_to_view_account_balance()"
+  "location": "FaceBook.user_checks_user_first_name_is_present()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Validate create user miltiple fields",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@facebook"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User need to be on FaceBOOK Logi Page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "FaceBook.user_need_to_be_on_FaceBOOK_Logi_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User enters user first name",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "FaceBook.user_enters_user_first_name()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user enters username",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "FaceBook.user_enters_username()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User checks user first anme is present",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "FaceBook.user_checks_user_first_anme_is_present()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User Mobile field should be blank",
+  "keyword": "But "
+});
+formatter.match({
+  "location": "FaceBook.user_Mobile_field_should_be_blank()"
 });
 formatter.result({
   "status": "passed"
